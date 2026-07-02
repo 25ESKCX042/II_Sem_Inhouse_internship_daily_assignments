@@ -1,0 +1,124 @@
+/* ── PAGE BACKGROUND ── */
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #fbbf24;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ── WHITE CARD IN THE MIDDLE ── */
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* ── FORM TITLE ── */
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+
+/* ── EACH FIELD BLOCK ── */
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+/* ── LABELS ── */
+.field > label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #1e3a8a;
+  margin-bottom: 6px;
+}
+
+/* ── ALL INPUTS AND SELECT ── */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  background-color: white;
+}
+
+input:focus,
+select:focus {
+  border-color: #1e3a8a;
+}
+
+/* ── HINT TEXT BELOW PASSWORD ── */
+.hint {
+  font-size: 12px;
+  color: #64748b;
+  margin: 0;
+}
+
+/* ── OPTIONAL LABEL ── */
+.optional {
+  font-weight: normal;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+/* ── ROW — puts two fields side by side ── */
+.row {
+  display: flex;
+  gap: 16px;
+}
+
+.row .field {
+  flex: 1;
+}
+
+/* ── RADIO BUTTONS ROW ── */
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.radio-group input[type="radio"] {
+  width: auto;
+  margin: 0;
+}
+
+.radio-group label {
+  font-size: 14px;
+  color: #334155;
+  font-weight: normal;
+}
+
+/* ── SUBMIT BUTTON ── */
+button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background-color: #1e3a8a;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+button[type="submit"]:hover {
+  background-color: #1e40af;
+}
