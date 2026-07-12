@@ -1,0 +1,29 @@
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+#errorBox {
+    display: none;
+    background: #ffdbdb;
+    color: #d90000;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 6px solid #d90000;
+    border-radius: 4px;
+    font-weight: 500;
+}
