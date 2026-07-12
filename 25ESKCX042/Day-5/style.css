@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+ 
+.card {
+    border: none;
+    transition: transform 0.2s ease;
+}
+ 
+.card:hover {
+    transform: translateY(-4px);
+}
+ 
+.bg-teal-soft {
+    background-color: #e6f7f5;
+}
+ 
+.toggle-btn {
+    transition: background-color 0.3s ease;
+}
+ 
+#searchBox {
+    max-width: 400px;
+}
+ 
